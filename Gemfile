@@ -74,3 +74,7 @@ end
 gem "tailwindcss-rails", "~> 2.0"
 gem "cssbundling-rails", "~> 1.1"
 gem "bootstrap"
+gem "carrierwave"
+gem "simple_form"
+gem "mini_magick"
+gem "devise"
