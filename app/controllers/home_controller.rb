@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def home
-    flash[:notice] = "Logged in successfully"
-    flash[:alert] = "invalid email or password"
+    flash.now[:notice] = "Logged in successfully"
+    flash.now[:alert] = "invalid email or password"
   end
 end
